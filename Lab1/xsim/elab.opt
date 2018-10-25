@@ -1,0 +1,1 @@
+--relax --debug typical --mt auto -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot pipeline xil_defaultlib.pipeline xil_defaultlib.glbl -log elaborate.log

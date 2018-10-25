@@ -1,0 +1,8 @@
+if_id.v,verilog,xil_defaultlib,srcs/if_id.v,
+ifetch.v,verilog,xil_defaultlib,srcs/ifetch.v,
+incr.v,verilog,xil_defaultlib,srcs/incr.v,
+mem.v,verilog,xil_defaultlib,srcs/mem.v,
+mux.v,verilog,xil_defaultlib,srcs/mux.v,
+pc_mod.v,verilog,xil_defaultlib,srcs/pc_mod.v,
+pipeline.v,verilog,xil_defaultlib,srcs/pipeline.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v
