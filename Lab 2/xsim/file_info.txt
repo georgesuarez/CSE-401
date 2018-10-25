@@ -1,0 +1,5 @@
+control.v,verilog,xil_defaultlib,srcs/control.v,
+reg.v,verilog,xil_defaultlib,srcs/reg.v,
+sign_extend.v,verilog,xil_defaultlib,srcs/sign_extend.v,
+sign_extend_tb.v,verilog,xil_defaultlib,srcs/sign_extend_tb.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v
