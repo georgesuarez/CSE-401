@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+srcs/srcs/adder.v \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
