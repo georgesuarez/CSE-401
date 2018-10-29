@@ -1,8 +1,6 @@
 verilog xil_defaultlib  \
-srcs/srcs/control.v \
-"srcs/reg.v" \
-"srcs/sign_extend.v" \
-"srcs/sign_extend_tb.v" \
+srcs/srcs/reg.v \
+"srcs/register_tb.v" \
 
 verilog xil_defaultlib "glbl.v"
 
