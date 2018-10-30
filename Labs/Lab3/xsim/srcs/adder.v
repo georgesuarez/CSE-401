@@ -9,4 +9,4 @@ module adder (
    assign add_out = add_in1 + add_in2;
    
    
-endmodule
+endmodule   // adder

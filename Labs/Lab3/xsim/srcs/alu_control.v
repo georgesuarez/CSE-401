@@ -2,7 +2,7 @@
 
 module alu_control (
     input wire [5:0] funct,
-    input wire [1:0] alu_op,
+    input wire [1:0] aluop,
     output reg [2:0] select
    );
    
@@ -41,7 +41,7 @@ module alu_control (
     select <= 0;
     
    always @ * begin
-    if ( alu_op == Rtype )
+    if ( aluop == Rtype )
     begin
         case ( funct )
             // Assign the correct select value based on the function field
@@ -58,17 +58,17 @@ module alu_control (
      
      // For all other types. Use figure 3.2 to help you out.
      // Feel free to reuse any of the parameters defined above.
-     else if ( alu_op == lwsw )
+     else if ( aluop == lwsw )
      begin
         select <= ALUadd;
      end
      
-     else if ( alu_op == Itype )
+     else if ( aluop == Itype )
      begin
         select <= ALUsub;
      end
      
-     else if ( alu_op == unknown )
+     else if ( aluop == unknown )
      begin
         select <= ALUx;
      end
