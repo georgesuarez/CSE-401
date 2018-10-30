@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module register ( 
+module register( 
     input [4:0] rs,         
     input [4:0] rt,
     input [4:0] rd,
