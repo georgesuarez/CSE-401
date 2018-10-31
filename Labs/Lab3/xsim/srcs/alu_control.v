@@ -7,11 +7,11 @@ module alu_control (
    );
    
    parameter Rtype = 2'b10;
-          /* Radd  = 2'b10,
+             Radd  = 2'b10,
              Rsub  = 2'b10,
              Rand  = 2'b10,
              Ror   = 2'b10,
-             Rslt  = 2'b10; */
+             Rslt  = 2'b10; 
    
    parameter lwsw  = 2'b00,     // Since LW and SW use the same bit pattern, only way to store them as a parameter
              Itype = 2'b01,     // beq, branch

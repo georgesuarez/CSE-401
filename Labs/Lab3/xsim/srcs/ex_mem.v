@@ -29,10 +29,9 @@ module ex_mem(
     
     // Use FIg 3.7 to assign the inputs to the outputs
     wb_ctlout <= ctlwb_out;
-    branch <= ctlm_out[2];
+    branch <= ctlm_out[0];
     memread <= ctlm_out[1];
-    memwrite <= ctlm_out[0];
-    
+    memwrite <= ctlm_out[2];
     add_result <= adder_out;
     zero <= aluzero;
     alu_result <= aluout;
