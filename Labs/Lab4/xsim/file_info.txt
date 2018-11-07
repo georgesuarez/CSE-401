@@ -1,0 +1,3 @@
+data_memory.v,verilog,xil_defaultlib,srcs/data_memory.v,
+mem_test.v,verilog,xil_defaultlib,srcs/mem_test.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

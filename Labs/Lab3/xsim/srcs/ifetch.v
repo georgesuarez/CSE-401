@@ -1,5 +1,5 @@
 module I_FETCH ( 
-    input EX_MEM_PCSrc,
+    input wire EX_MEM_PCSrc,
     input wire [31:0] EX_MEM_NPC,
     output wire [31:0] IF_ID_INSTR, IF_ID_NPC
 );

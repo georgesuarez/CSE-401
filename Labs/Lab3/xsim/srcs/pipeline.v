@@ -31,10 +31,10 @@ module pipeline();
      wire   [4:0]   instrout_2016, instrout_1511;
      
      I_DECODE I_DECODE2(
-        .IF_ID_instrout( IF_ID_instr ),
-        .IF_ID_npcout( IF_ID_npc ),
+        .IF_ID_instrout( IF_ID_INSTR ),
+        .IF_ID_npcout( IF_ID_NPC ),
         .MEM_WB_rd( MEM_WB_rd ),
-        .MEM_WB_regwrite( MEM_WB_regwrite),
+        .MEM_WB_regwrite( MEM_WB_regwrite ),
         .WB_mux5_writedata( WB_mux5_writedata ),
         .wb_ctlout( wb_ctlout ),
         .m_ctlout( m_ctlout ),

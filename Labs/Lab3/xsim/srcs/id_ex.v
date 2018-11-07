@@ -34,9 +34,9 @@ always @ * begin
  		 #1
 	 	 wb_ctlout 	<= ctlwb_out;
 		 m_ctlout 	<= ctlm_out;	
-		 regdst 	<= ctlex_out[3];	 // ctlex_out is mapped to 3 outputs:
-		 aluop 		<= ctlex_out[2:1];				
-		 alusrc 	<= ctlex_out[0];			
+		 regdst 	<= ctlex_out[0];	 // ctlex_out is mapped to 3 outputs:
+		 aluop 		<= ctlex_out[2];				
+		 alusrc 	<= ctlex_out[1];			
 		 npcout 	<= npc;
 		 rdata1out 	<= readdata1;
 		 rdata2out 	<= readdata2;

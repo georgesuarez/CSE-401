@@ -28,7 +28,7 @@ module EXECUTE(
     .add_out( adder_out ) 
   );
   
-  mux mux1(
+  bottom_mux bottom_mux1(
     .y( muxout ),
     .a( instr_1511 ),
     .b( instrout_2016 ),

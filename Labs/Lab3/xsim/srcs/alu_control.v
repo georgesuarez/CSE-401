@@ -6,7 +6,7 @@ module alu_control (
     output reg [2:0] select
    );
    
-   parameter Rtype = 2'b10;
+   parameter Rtype = 2'b10,
              Radd  = 2'b10,
              Rsub  = 2'b10,
              Rand  = 2'b10,

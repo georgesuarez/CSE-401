@@ -28,9 +28,11 @@ module mem(
     // Regsiter Declarations
     reg [31:0] MEM[0:127];
     
+  
+    
     // Initialize Registers
     initial begin
-       MEM[0] <= 'hA00000AA;
+       MEM[0] <= 'h002300AA;
        MEM[1] <= 'h10000011;
        MEM[2] <= 'h20000022;
        MEM[3] <= 'h30000033;
