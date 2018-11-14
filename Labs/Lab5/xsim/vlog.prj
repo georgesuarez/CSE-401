@@ -1,0 +1,8 @@
+verilog xil_defaultlib  \
+srcs/srcs/i_writeback.v \
+"srcs/mux.v" \
+"srcs/writeback_tb.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

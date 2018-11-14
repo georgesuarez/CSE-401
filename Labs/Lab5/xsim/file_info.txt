@@ -1,0 +1,4 @@
+i_writeback.v,verilog,xil_defaultlib,srcs/i_writeback.v,
+mux.v,verilog,xil_defaultlib,srcs/mux.v,
+writeback_tb.v,verilog,xil_defaultlib,srcs/writeback_tb.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

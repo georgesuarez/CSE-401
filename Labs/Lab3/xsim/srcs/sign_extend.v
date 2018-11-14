@@ -7,7 +7,7 @@ module s_extend(
   
   always @ * begin
     // Replicate signed bit 16 times then cancatinate
-    extend = { {16{next_end[15]}}, next_end };
+    extend <= { {16{next_end[15]}}, next_end };
   end
   
 endmodule
