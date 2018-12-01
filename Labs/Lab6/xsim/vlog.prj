@@ -1,0 +1,29 @@
+verilog xil_defaultlib  \
+srcs/srcs/AND.v \
+"srcs/MEMORY.v" \
+"srcs/adder.v" \
+"srcs/alu.v" \
+"srcs/alu_control.v" \
+"srcs/bottom_mux.v" \
+"srcs/control.v" \
+"srcs/data_memory.v" \
+"srcs/ex_mem.v" \
+"srcs/execute.v" \
+"srcs/i_writeback.v" \
+"srcs/id_ex.v" \
+"srcs/idecode.v" \
+"srcs/if_id.v" \
+"srcs/ifetch.v" \
+"srcs/incr.v" \
+"srcs/mem.v" \
+"srcs/mem_wb.v" \
+"srcs/mux.v" \
+"srcs/pc_mod.v" \
+"srcs/reg.v" \
+"srcs/sign_extend.v" \
+"srcs/top_mux.v" \
+"srcs/pipeline.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
